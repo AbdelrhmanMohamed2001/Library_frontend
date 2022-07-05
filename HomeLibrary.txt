@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <h1 style="text-align: center; color:blue; font-family: Verdana, Geneva, Tahoma, sans-serif;text-shadow: 2px 2px 5px red;" >HOME OF LIBRARY</h1>
+
+       
+        <style>
+body {background-image: url(5.jpg);
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+height: 100vh;
+background-color: none;}
+
+
+
+
+.navbar a {
+  float: left;
+  color: rgb(180, 46, 113);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+        </style>
+        <body>
+            
+
+
+
+            <div class="navbar">
+                <a href="#" class="active">Home</a>
+                <a href="#" >Register</a>
+                <a href="All Books.html">All Books</a>
+                <a href="#">Borrowed Books</a>
+                <a href="UPDATE BOOK.html">Update Book</a>
+                <a href="Delete book.html">Delete Book</a>
+                
+                
+              </div><br><br><br>
+
+              <h1 style="text-align: center;">WELCOME TO OUR LIBRARY..</h1>
+              <a href="R_1.html" style="font-size: 2rem; text-align:center; background-color: aqua;">IF YOU ARE ADMIN YOU CAN REGISTER AS ADMIN FROM HERE</a><br><br>
+              <a href="R_2.html" style="font-size: 2rem; text-align:center;background-color: burlywood;">AND IF YOU ARE STUDENT YOU CAN LOGIN FROM HERE</a>
+              
+
+
+          
+                
+                    
+        </body>
+    </head>
+</html>

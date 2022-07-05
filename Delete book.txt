@@ -1,0 +1,79 @@
+<html>
+    <head>
+      <h1 style="text-align: center; color:blue; font-family: Verdana, Geneva, Tahoma, sans-serif;text-shadow: 2px 2px 5px red;" >DELETE BOOK</h1>
+        <style>
+            body {background-image: url(5.jpg);
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+height: 100vh;
+background-color: none;}
+
+.navbar a {
+  float: left;
+  color: rgb(180, 46, 113);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+
+
+.d {
+   
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+   
+   input[type=text]{
+             width: 100%;
+             padding: 15px;
+             margin: 0px 0 0px 0;
+             display: inline-block;
+             border: none;
+
+   }
+   .container {
+  padding: 16px;
+  background-color: none;
+}
+
+
+
+        </style>
+        <body>
+            
+          
+          <div class="navbar">
+            <a href="#">Home</a>
+            <a href="#" >Register</a>
+            <a href="All Books.html">All Books</a>
+            <a href="#">Borrowed Books</a>
+            <a href="UPDATE BOOK.html">Update Book</a>
+            <a href="Delete book.html"  class="active">Delete Book</a>
+            
+            
+          </div><br><br><br><br>
+            <label ><b>Enter Book</b></label><br>
+            
+             <input Book="Book" type="text" placeholder="Enter Book Here" name="Book" id="Book" required>
+             <div class="container">
+              
+             <button type="submit" class="d" style="background-color: red;"> DELETE IT</button>
+             <button type="submit" class="d" style="background-color: green;">UNDO IT</button>
+             </div>
+        </body>
+    </head>
+</html>

@@ -1,0 +1,109 @@
+<html>
+    <head>
+      <h1 style="text-align: center; color:blue; font-family: Verdana, Geneva, Tahoma, sans-serif;text-shadow: 2px 2px 5px red;" >ALL BOOKS</h1>
+        <style>
+            body {background-image: url(5.jpg);
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+height: 100vh;
+background-color: none;}
+
+p{
+    color: black;
+    background-color: cornflowerblue;
+    color:springgreen;
+    font-size: 30px;
+}
+.button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+
+.navbar a {
+  float: left;
+  color: rgb(180, 46, 113);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+h2{border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;}
+ .double
+  {border-style: double;
+    padding: 10px 25px;
+    width: 50%;
+    
+}
+
+
+.button1 {background-color: grey; }
+.button2 {background-color: green; } 
+.button3 {background-color:red ;} 
+        </style>
+        <body>
+
+            <div class="navbar">
+                <a href="#" >Home</a>
+                <a href="#" >Register</a>
+                <a href="All Books.html" class="active">All Books</a>
+                <a href="#">Borrowed Books</a>
+                <a href="UPDATE BOOK.html">Update Book</a>
+                <a href="Delete book.html">Delete Book</a>
+                
+                
+              </div><br><br><br>
+
+            <p class="double">1-HTML BOOK</p>
+            <button class="button button1">OPEN</button>
+            <a href="UPDATE BOOK.html" type="button"  target="_top" ><button  onclick="openCity(event, 'UPDATE')" ;style="
+                color: black ; background-color:burlywood;" class="button button2" >UPDATE</button></a>
+                <a href="Delete book.html" type="button"  target="_top" ><button  onclick="openCity(event, 'DELETE')" ;style="
+                    color: black ; background-color:burlywood;" class="button button3" >DELETE</button></a>
+
+            <p class="double">2-CSS BOOK</p>
+            <button class="button button1">OPEN</button>
+            <a href="UPDATE BOOK.html" type="button"  target="_top" ><button  onclick="openCity(event, 'UPDATE')" ;style="
+                color: black ; background-color:burlywood;" class="button button2" >UPDATE</button></a>
+                <a href="Delete book.html" type="button"  target="_top" ><button  onclick="openCity(event, 'DELETE')" ;style="
+                    color: black ; background-color:burlywood;" class="button button3" >DELETE</button></a>
+           
+                    <p class="double">3-JAVA SCRIPT BOOK</p>
+            <button class="button button1">OPEN</button>
+            <a href="UPDATE BOOK.html" type="button"  target="_top" ><button  onclick="openCity(event, 'UPDATE')" ;style="
+                color: black ; background-color:burlywood;" class="button button2" >UPDATE</button></a>
+                <a href="Delete book.html" type="button"  target="_top" ><button  onclick="openCity(event, 'DELETE')" ;style="
+                    color: black ; background-color:burlywood;" class="button button3" >DELETE</button></a>
+           
+                    <p class="double">4-PYTHON AND DJANGO BOOK</p>
+            <button class="button button1">OPEN</button>
+            <a href="UPDATE BOOK.html" type="button"  target="_top" ><button  onclick="openCity(event, 'UPDATE')" ;style="
+                color: black ; background-color:burlywood;" class="button button2" >UPDATE</button></a>
+                <a href="Delete book.html" type="button"  target="_top" ><button  onclick="openCity(event, 'DELETE')" ;style="
+                    color: black ; background-color:burlywood;" class="button button3" >DELETE</button></a>
+        </body>
+    </head>
+</html>

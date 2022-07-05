@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#" class="active">Register</a>
+    <a href="All Books.html">All Books</a>
+    <a href="#">Borrowed Books</a>
+    <a href="UPDATE BOOK.html">Update Book</a>
+    <a href="Delete book.html">Delete Book</a>
+  <br><br><br><br><br><br><br><br><br> 
+<h1 style="text-align: center; color:blue; font-family: Verdana, Geneva, Tahoma, sans-serif;text-shadow: 2px 2px 5px red;" >LOGIN PAGE</h1>
+<style>
+body {font-family: Arial, Helvetica, sans-serif; background-image: url(5.jpg);background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+height: 100vh;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.navbar a {
+  float: left;
+  color: rgb(180, 46, 113);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Extra styles for the cancel button */
+.cancel{
+  width: 100%;
+  padding: 10px 18px;
+  background-color: red;
+}
+.login{
+  width: 100%;
+  padding: 10px 18px;
+  background-color: green;
+}
+
+/* Center the image and position the close button */
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  
+  background-color: black;
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.content {
+  background-color: mediumaquamarine;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  
+}
+
+/* The Close Button (x) */
+.c {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.c:hover,
+.c:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+  
+}
+
+@-webkit-keyframes animatezoom  {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)};
+  
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+     text-align: center;
+  }
+ 
+}
+</style>
+
+<body>
+
+  
+
+
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+  
+  <button onclick="document.getElementById('id01').style.display='block'" >Login for students</button>
+
+  <div id="id01" class="modal">
+    
+    <form class="content animate" action="/action_page.php" method="post">
+     
+      
+        <label ><b style="padding: 16px;">Username</b></label>
+        <input type="text" >
+  
+        <label ><b style="padding: 16px;">Password</b></label>
+        <input type="password" >
+          
+        <button type="submit" class="login">Login</button>
+      </div>
+  
+      <div style="padding: 16px;">
+        <button type="button" onclick="document.getElementById('id01')" class="cancel">Cancel</button>
+        <span class="psw" style="text-align: center; background-color: chartreuse;" >Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </div>
+
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById('id01');
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  </script>
+  
+</body>
+</head>
+</html>
